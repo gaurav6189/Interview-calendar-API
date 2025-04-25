@@ -49,6 +49,7 @@ cd interview-calendar-api
 
 Build and start the containers:
 docker-compose up -d 
+docker-compose up --build
 
 seed dummy data to db using below comand it will add data for 2 interviewers Ines and Ingrid and 1 candidate Carl
 
